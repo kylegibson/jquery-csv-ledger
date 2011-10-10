@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0 0;
+}
+body {
+  margin-top: 1em;
+  margin-left: 1em;
+}
+ul {
+  list-style: none;
+}
+li {
+  float: left;
+  width: 5em;
+  background-color: #AAA;
+  height: 2em;
+  line-height: 2em;
+  padding: 0.5em;
+}
+li.header {
+  width: 7em;
+  text-align: left;
+}
+li.header span {
+  font-weight: bold;
+}
+li {
+  text-align: right;
+}
+.header.year span {
+  font-size: 1.5em;
+}
+.header.month span {
+  font-size: 1.2em;
+}
+.year li {
+  background-color: #CCC;
+}
+.month li {
+  background-color: #EEE;
+}
+div { 
+  clear: left;
+}
+table {
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  border: 1px solid black;
+  padding: 0.5em;
+}
+table th {
+  text-align: left;
+}
+
+.count {
+  width: 2em;
+  border-left: 1px solid black;
+}
+
+.fee {
+  width: 4em;
+}
+
+.Payment.Sent.fee {
+  display: none;
+}
+
+.fee span {
+  font-style: italic;
+}
+
+.net {
+  width: 6em;
+}
+
+.net span {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.total {
+  border-left: 1px solid black;
+  width: 7em;
+}
+.total span {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
